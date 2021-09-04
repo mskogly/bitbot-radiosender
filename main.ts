@@ -4,6 +4,9 @@ input.onButtonPressed(Button.A, function () {
 input.onGesture(Gesture.TiltRight, function () {
     radio.sendNumber(4)
 })
+input.onGesture(Gesture.LogoUp, function () {
+    radio.sendNumber(5)
+})
 input.onButtonPressed(Button.B, function () {
     radio.sendNumber(2)
 })
